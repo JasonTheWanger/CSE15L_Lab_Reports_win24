@@ -1,1 +1,6 @@
-Testing demo for lab1
+*Testing italics*
+**Testing bold**
+# Testing Heading 1
+## Testing Heading 2
+[Link] https://docs.google.com/document/d/1bEEebQ4LdGzHno0lshiehq_cSE31HrxWLcB6dGoPVKs/edit
+
