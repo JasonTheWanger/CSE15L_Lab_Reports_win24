@@ -1,4 +1,4 @@
-..CD command with no argument..
+*CD command with no argument
     
     [user@sahara ~/lecture1]$ cd
     [user@sahara ~]$
