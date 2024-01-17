@@ -1,4 +1,5 @@
-# cd command with no argument
+`cd` command with no argument
+=============================
 
 Current directory is /lecture1
 
@@ -18,7 +19,8 @@ Current directory is /lecture1/messages
 I simulated 3 different situation when using cd with no arguments. First case is when the working directory is /lecture1, second is when the directory is /home, and third is when the directory is /lecture1/messages.
 If the current working directory is /home then nothing happens. If current working directory is /lecture1, current directory returns to /home. If the current directory is /lecture1/messages, current directory returns to /home. No error occured in these 3 cases with cd no arguments. No errors.
 
-# cd command with directory argument
+`cd` command with directory argument
+=====================================
 
 Current directory is /home
 
@@ -31,7 +33,8 @@ Current directory is /home
 
 By entering a directory as an argument after the cd command, the current working direcotry will be changed to the entered direcotry if it exists in the current directory. If the input directory does not exist in the current direcotry, the terminal will tell the user "No such file or directory".
 
-# cd command with file argument
+`cd` command with file argument
+================================
 
 Current direcotry is /home/lecture1/messages
 
@@ -41,7 +44,8 @@ Current direcotry is /home/lecture1/messages
 
 If the argument is a file, for example, a text file, the ternimal will say the txt file is not a directory; therefore, it can not change the current directory to the txt file.
 
-# ls command with no argument 
+`ls` command with no argument 
+===============================
 
 Current directory is /home/lecture1/messages
 
@@ -50,7 +54,8 @@ Current directory is /home/lecture1/messages
 
 After entering the command of ls, the terminal will print out a list of all of the directories or files that is located in the current directory.
 
-# ls command with directory argument
+`ls` command with directory argument
+====================================
 
 Current directory is /home
 
@@ -64,7 +69,8 @@ Current directory is /home
 
 By entering the ls command with a argument of a directory, the terminal will show a list of all the directories or files in the input directory argument. 
 
-# ls commnad with file argument
+`ls` commnad with file argument
+=================================
 
 Current direcotry is /home
 
@@ -73,7 +79,8 @@ Current direcotry is /home
 
 If the input argument is a file, the terminal will print out the relative path of the file location
 
-# cat command with no argument
+`cat` command with no argument
+===============================
 
 Current directory is /home
 
@@ -84,7 +91,8 @@ Current directory is /home
     ~
 If using cat command with no argument, the ternimal will read from standard input, then output what user has input in the terminal
 
-# cat command with directory argument
+`cat` command with directory argument
+======================================
 
 Current directory is /home
 
@@ -93,7 +101,8 @@ Current directory is /home
 
 If the arugment is a direcotry, the ternimal will inform user that the input is a directory, not a file, where cat cannot provide a standard output.
 
-# cat command with file argument
+`cat` command with file argument
+=================================
 
 Current direcotry is /home
 
