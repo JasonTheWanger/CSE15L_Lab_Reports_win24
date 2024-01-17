@@ -1,28 +1,28 @@
 `cd` command with no argument
 =============================
 
-Current directory is /lecture1
+Current directory is `/lecture1`
 
     [user@sahara ~/lecture1]$ cd
     [user@sahara ~]$
 
-Current directory is /home
+Current directory is `/home`
 
     [user@sahara ~]$ cd
     [user@sahara ~]$
 
-Current directory is /lecture1/messages
+Current directory is `/lecture1/messages`
 
     [user@sahara ~/lecture1/messages]$ cd
     [user@sahara ~]$
 
-I simulated 3 different situation when using `cd` with no arguments. First case is when the working directory is /lecture1, second is when the directory is /home, and third is when the directory is /lecture1/messages.
-If the current working directory is /home then nothing happens. If current working directory is /lecture1, current directory returns to /home. If the current directory is /lecture1/messages, current directory returns to /home. No error occured in these 3 cases with `cd` no arguments. No errors.
+I simulated 3 different situation when using `cd` with no arguments. First case is when the working directory is `/lecture1`, second is when the directory is `/home`, and third is when the directory is `/lecture1/messages`.
+If the current working directory is `/home` then nothing happens. If current working directory is `/lecture1`, current directory returns to `/home`. If the current directory is `/lecture1/messages`, current directory returns to `/home`. No error occured in these 3 cases with `cd` no arguments. No errors.
 
 `cd` command with directory argument
 =====================================
 
-Current directory is /home
+Current directory is `/home`
 
     [user@sahara ~]$ cd lecture1
     [user@sahara ~/lecture1]$
@@ -36,7 +36,7 @@ By entering a directory as an argument after the `cd` command, the current worki
 `cd` command with file argument
 ================================
 
-Current direcotry is /home/lecture1/messages
+Current direcotry is `/home/lecture1/messages`
 
     [user@sahara ~/lecture1/messages]$ cd en-us.txt
     bash: cd: en-us.txt: Not a directory
@@ -47,7 +47,7 @@ If the argument is a file, for example, a text file, the ternimal will say the t
 `ls` command with no argument 
 ===============================
 
-Current directory is /home/lecture1/messages
+Current directory is `/home/lecture1/messages`
 
     [user@sahara ~/lecture1/messages]$ ls
     en-us.txt  es-mx.txt  zh-cn.txt  zh-hk.txt
@@ -57,12 +57,12 @@ After entering the command of `ls`, the terminal will print out a list of all of
 `ls` command with directory argument
 ====================================
 
-Current directory is /home
+Current directory is `/home`
 
     [user@sahara ~]$ ls lecture1
     Hello.class  Hello.java  messages  README
 
-Current directory is /home
+Current directory is `/home`
 
     [user@sahara ~]$ ls lecture1/messages
     en-us.txt  es-mx.txt  zh-cn.txt  zh-hk.txt
@@ -72,7 +72,7 @@ By entering the `ls` command with a argument of a directory, the terminal will s
 `ls` commnad with file argument
 =================================
 
-Current direcotry is /home
+Current direcotry is `/home`
 
     [user@sahara ~]$ ls lecture1/messages/en-us.txt
     lecture1/messages/en-us.txt
@@ -82,7 +82,7 @@ If the input argument is a file, the terminal will print out the relative path o
 `cat` command with no argument
 ===============================
 
-Current directory is /home
+Current directory is `/home`
 
     [user@sahara ~]$ cat
     /   
@@ -94,7 +94,7 @@ If using `cat` command with no argument, the ternimal will read from standard in
 `cat` command with directory argument
 ======================================
 
-Current directory is /home
+Current directory is `/home`
 
     [user@sahara ~]$ cat lecture1
     cat: lecture1: Is a directory
@@ -104,7 +104,7 @@ If the arugment is a direcotry, the ternimal will inform user that the input is 
 `cat` command with file argument
 =================================
 
-Current direcotry is /home
+Current direcotry is `/home`
 
     [user@sahara ~]$ cat lecture1/Hello.java
     import java.io.IOException;
