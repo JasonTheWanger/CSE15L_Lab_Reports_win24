@@ -21,12 +21,12 @@ The second picture follows very similar process as the first one, the Server env
 
 ![Image](Lab2_terminalPrivateKey.png)
 
-The absolute path of private key is /Users/junranwang/.ssh/id_rsa
+The absolute path of private key is `/Users/junranwang/.ssh/id_rsa`
 ***
 
 ![Image](Lab2_terminalPublicKey.png)
 
-The abosulte path of public key is /home/linux/ieng6/oce/3k/juw070/.ssh/authorized_keys
+The abosulte path of public key is `/home/linux/ieng6/oce/3k/juw070/.ssh/authorized_keys`
 ***
 
 ![Image](Lab2_sshLogin.png)
