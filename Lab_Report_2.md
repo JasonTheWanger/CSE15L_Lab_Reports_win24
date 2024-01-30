@@ -19,3 +19,17 @@ Once the server is started, I typed `http://localhost:9600/add-message?s=Hello&u
 The second picture follows very similar process as the first one, the Server envokes *handleRequest* and pass in `http://localhost:9600/add-message?s=Hi&user=jason` as the argument. Then the `if` statement will check if the path of the url meet the format requirement. We pass the check. `params` has stored something different this time, `{s=Hi, user=jason}`. The next `if` checks whether the length of params is 2. We pass the check. This time, 2 of the 4 String variable to store something that is different than the first example. `sPrompt` will store `s=`, `userPromot` will store `user=`, `user` will then store `jason`, and `message` will then store `Hi`. After checking `sPrompt` and `userPrompt` have meet the requirement in the `if` statement, the program starts concating the output together in `record`. Since `record` is a class field, it will be updated/appended with new content. The `\n` in record switch to a new line every time we store something new in record. After returning `record` the web page will show the previous conversation and the conversation we just made.
 ***
 
+![Image](Lab2_terminalPrivateKey.png)
+
+The absolute path of private key is /Users/junranwang/.ssh/id_rsa
+***
+
+![Image](Lab2_terminalPublicKey.png)
+
+The abosulte path of public key is /home/linux/ieng6/oce/3k/juw070/.ssh/authorized_keys
+***
+
+![Image](Lab2_sshLogin.png)
+***
+
+I didn't have any knowledge prior taking lab 2 and lab 3. Everything I did is new to me.
