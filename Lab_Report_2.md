@@ -39,4 +39,4 @@ The abosulte path of public key is `/home/linux/ieng6/oce/3k/juw070/.ssh/authori
 
 ***
 
-In Lab 2 and Lab 3 I learned how to create my own local server as well as creating server on the ieng6 remote computer. Lab 2 also taught me how to implement the web server and make it interactable throught the URL and query. In Lab 3 I learned how to create my own public and private key for accessing the ieng6 remote computers by ssh without typing any password everytime when login. Something interesting like the `scp` command, where it helps me to copy the public key on my computer to the file in the remote computer.
+In Lab 2 and Lab 3 I learned how to create my own local server as well as creating server on the ieng6 remote computer. Lab 2 also taught me how to implement the web server and make it interactable throught the URL and query. In Lab 3 I learned how to create my own public and private key for accessing the ieng6 remote computers by `ssh` without typing any password everytime when login. Something interesting like the `scp` command, where it helps me to copy the public key on my computer to the file in the remote computer.
