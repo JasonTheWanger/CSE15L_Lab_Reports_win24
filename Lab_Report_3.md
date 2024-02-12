@@ -129,13 +129,90 @@ This `grep -n  "this" 1468-6708-3-1.txt` command prints all of the lines that co
 ***
 
 ```
-     -f file, --file=file
-             Read one or more newline separated patterns from file.  Empty pattern lines match every input line.  Newlines are not considered part of a pattern.  If
-             file is empty, nothing is matched.
+          -c, --count
+             Only a count of selected lines is written to standard output.
 ```
+```
+junranwang@oushunzens-MacBook-Pro biomed % grep -c "this"  1468-6708-3-1.txt      
+11
+```
+This `grep -c "this"  1468-6708-3-1.txt` command shows that there exists 11 lines that contains the keyword 'this' in this file. This is useful when the user only wants to know how many lines in the file contains the keyword 'this'.
+```
+junranwang@oushunzens-MacBook-Pro biomed % grep -c "rna"  1468-6708-3-1.txt
+2
+```
+This `grep -c "rna"  1468-6708-3-1.txt` command shows that in this file exists 2 lines that contain the word who has 'rna' in it. This is useful when the user only wants to know how many lines in the file contains the word who has 'rna' key in it.
+
+***
 
 ```
      -A num, --after-context=num
              Print num lines of trailing context after each match.  See also the -B and -C options.
 ```
-
+```
+junranwang@oushunzens-MacBook-Pro biomed % grep -A 3 "this"  1468-6708-3-1.txt
+        events [ 10 ] . In this paper we study whether BMI at
+        baseline is associated with living longer, and/or with more
+        years of being healthy, in a cohort of older adults for
+        whom risk factors, subclinical disease, and morbidity are
+--
+          For this analysis we defined YHL as the number of
+          years (of 7) in which a person reported excellent, very
+          good, or good health (were 'healthy'). YHL ranges from 0
+          (for persons who were never in excellent, very good, or
+--
+          drawback of this simple definition of 'healthy' is that
+          it does not distinguish between fair or poor health and
+          death, since all are considered 'not healthy'. We also
+          used an alternative approach, which assigns a different
+--
+          this analysis is based.
+        
+        
+          Analysis
+--
+          plus the grand mean. The mean of this new variable, for a
+          group of subjects, is the adjusted mean YOL for that
+          group. Adjusted YHL was calculated in a similar manner.
+          We calculated two sets of adjusted variables because of
+--
+          required to detect an effect of this magnitude is
+          proportional to the inverse of the squared effect size,
+          large effect sizes are desirable.
+        
+--
+        with 20-24.9 in all comparisons. For this reason, and to
+        increase sample size for those with low BMI, we combined
+        the two lower categories, defining underweight as a BMI
+        under 20.
+--
+        YOL, but this group was not significantly different from
+        the normal group, in part because of low sample size. Men
+        classified as normal, overweight or obese all had about the
+        same YOL.
+--
+          significant in this patient group.
+        
+        
+          Potential limitations
+--
+          10% of the sample, but results with and without this
+          group were similar. Analysis of mean YOL instead of the
+          more traditional survival analysis survival analysis was
+          appropriate here, since virtually no persons were lost to
+--
+          persons, but we think this is unlikely given the absence
+          of any differences in EVGFP.
+```
+This `grep -A 3 "this"  1468-6708-3-1.txt` command prints the lines that contain the keyword 'this' in the file, followed by the next 3 lines after each target line. This is useful for user who wants to not only find the location of the key but also find the interpretation of the key in the context by checking the content of the next 3 lines.
+```
+unranwang@oushunzens-MacBook-Pro biomed % grep -A 2 "rna"  1468-6708-3-1.txt
+          used an alternative approach, which assigns a different
+          value to each level of EVGFP [ 19 ] . Preliminary results
+          were similar for the two approaches, however, and we
+--
+          maximum thickness of the internal carotid artery,
+          depression (CESD score), serum albumin, serum
+          cholesterol, and serum creatinine. These measures are
+```
+This `grep -A 2 "rna"  1468-6708-3-1.txt` command prints the lines that contain the word who has 'rna' in it, followed by the next 2 lines after each target line. This is useful for user who wants to not only find the location of the key but also find the interpretation of the key in the context by checking the content of the next 2 lines.
