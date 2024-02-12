@@ -12,7 +12,24 @@ Failure-inducing input
 
 None failure-inducing input
 ---------------------------
+```
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
 
+***
+The symptoms
+------------
+![Image](ErrorTest.png)
+![Image](ErrorTest2.png)
+
+***
+
+Before
+------
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -23,15 +40,8 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-***
-
-![Image](ErrorTest.png)
-
-![Image](Screen Shot 2024-02-11 at 10.23.17 PM.png)
-
-***
-
 After
+-----
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
