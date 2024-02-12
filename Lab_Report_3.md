@@ -75,7 +75,7 @@ DESCRIPTION
      zgrep, zegrep, and zfgrep act like grep, egrep, and fgrep, respectively, but accept input files compressed with the compress(1) or gzip(1) compression
      utilities.  bzgrep, bzegrep, and bzfgrep act like grep, egrep, and fgrep, respectively, but accept input files compressed with the bzip2(1) compression utility.
 ```
-
+***
 ```
      -m num, --max-count=num
              Stop reading the file after num matches.
