@@ -21,10 +21,8 @@ None failure-inducing input
 ```
 
 ***
-The symptoms
+The Symptoms
 ------------
-
-***
 
 ![Image](ErrorTest.png)
 ![Image](ErrorTest2.png)
