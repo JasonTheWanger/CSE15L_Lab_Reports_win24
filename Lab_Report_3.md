@@ -23,6 +23,7 @@ None failure-inducing input
 ***
 The symptoms
 ------------
+
 ![Image](ErrorTest.png)
 ![Image](ErrorTest2.png)
 
