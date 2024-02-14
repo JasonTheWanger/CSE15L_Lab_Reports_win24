@@ -1,7 +1,9 @@
 Bugs and Commands
 =================
+
 Failure-inducing input
 ----------------------
+
 ```
   @Test
   public void testReversedVer1(){
@@ -21,6 +23,7 @@ None failure-inducing input
 ```
 
 ***
+
 The Symptoms
 ------------
 
