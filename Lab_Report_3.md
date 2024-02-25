@@ -59,7 +59,7 @@ static int[] reversed(int[] arr) {
 JUnit says that the first element in the returned array when ArrayExamples called revered method with input as the argument is different from the expected value. The value is expected to be 3 but the actual value in the 0 index of the newArray is actually {0, 0, 0}. The statement inside the for loop needs to be changed. Instead of assigning the element in newArray to arr and then returning arr, we want to assign values in arr to  newArray, then simply return newArray.
 
 ***
-Using ```man grep``` to figure out the possible command for ```grep```
+Using ```man grep``` to figure out the possible command for ```grep```.
 ----------------------------------------------------------------------
 
 ```
