@@ -59,6 +59,8 @@ static int[] reversed(int[] arr) {
 JUnit says that the first element in the returned array when ArrayExamples called revered method with input as the argument is different from the expected value. The value is expected to be 3 but the actual value in the 0 index of the newArray is actually {0, 0, 0}. The statement inside the for loop needs to be changed. Instead of assigning the element in newArray to arr and then returning arr, we want to assign values in arr to  newArray, then simply return newArray.
 
 ***
+Using ```man grep``` to figure out the possible command for ```grep```
+----------------------------------------------------------------------
 
 ```
 NAME
@@ -80,7 +82,15 @@ DESCRIPTION
      zgrep, zegrep, and zfgrep act like grep, egrep, and fgrep, respectively, but accept input files compressed with the compress(1) or gzip(1) compression
      utilities.  bzgrep, bzegrep, and bzfgrep act like grep, egrep, and fgrep, respectively, but accept input files compressed with the bzip2(1) compression utility.
 ```
+
+Source used:
+-----------
+Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
+
 ***
+Using ```grep -m num``` to read the keyword lines in the file for 'num' mathces
+-------------------------------------------------------------------
+
 ```
      -m num, --max-count=num
              Stop reading the file after num matches.
@@ -102,7 +112,13 @@ junranwang@oushunzens-MacBook-Pro biomed % grep -m 3 "rna" 1468-6708-3-1.txt
 ```
 This `grep -m 3 "rna" 1468-6708-3-1.txt` prints the first two words in two lines that contains the key 'rna' in it, becasue the third occurence of the keyword does not exist. It is useful when user only wants to find the first few occurence of words that contains the key in the file.
 
+Source used:
+-----------
+Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
+
 ***
+Using ```grep -n``` to read all the keyword lines in the files
+--------------------------------------------------------------
 
 ```
      -n, --line-number
@@ -131,7 +147,13 @@ junranwang@oushunzens-MacBook-Pro biomed % grep -n  "rna" 1468-6708-3-1.txt
 ```
 This `grep -n  "this" 1468-6708-3-1.txt` command prints all of the lines that contains the keyword who has 'rna' in the word, with the line number on the left side of the output. This is useful when user want to see where are all the words that contains 'rna' keyword located in the text file.
 
+Source used:
+-----------
+Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
+
 ***
+Using ```grep -c``` to count the number of lines in the files that contains the keyword
+---------------------------------------------------------------------------------------
 
 ```
           -c, --count
@@ -148,7 +170,13 @@ junranwang@oushunzens-MacBook-Pro biomed % grep -c "rna"  1468-6708-3-1.txt
 ```
 This `grep -c "rna"  1468-6708-3-1.txt` command shows that in this file exists 2 lines that contain the word who has 'rna' in it. This is useful when the user only wants to know how many lines in the file contains the word who has 'rna' key in it.
 
+Source used:
+-----------
+Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
+
 ***
+Using ```grep -A num``` to read addtional following 'num' lines after each keyword mathch
+-----------------------------------------------------------------------------------------
 
 ```
      -A num, --after-context=num
@@ -221,3 +249,7 @@ unranwang@oushunzens-MacBook-Pro biomed % grep -A 2 "rna"  1468-6708-3-1.txt
           cholesterol, and serum creatinine. These measures are
 ```
 This `grep -A 2 "rna"  1468-6708-3-1.txt` command prints the lines that contain the word who has 'rna' in it, followed by the next 2 lines after each target line. This is useful for user who wants to not only find the location of the key but also find the interpretation of the key in the context by checking the content of the next 2 lines.
+
+Source used:
+-----------
+Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
