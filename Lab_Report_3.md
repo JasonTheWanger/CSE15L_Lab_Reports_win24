@@ -59,7 +59,8 @@ static int[] reversed(int[] arr) {
 JUnit says that the first element in the returned array when ArrayExamples called revered method with input as the argument is different from the expected value. The value is expected to be 3 but the actual value in the 0 index of the newArray is actually {0, 0, 0}. The statement inside the for loop needs to be changed. Instead of assigning the element in newArray to arr and then returning arr, we want to assign values in arr to  newArray, then simply return newArray.
 
 ***
-Using ```man grep``` to figure out the possible command for ```grep```.
+
+Using ```man grep``` to figure out the possible command for ```grep```
 ----------------------------------------------------------------------
 
 ```
@@ -88,6 +89,7 @@ Source used:
 Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
 
 ***
+
 Using ```grep -m num``` to read the keyword lines in the file for 'num' mathces
 -------------------------------------------------------------------
 
@@ -117,6 +119,7 @@ Source used:
 Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
 
 ***
+
 Using ```grep -n``` to read all the keyword lines in the files
 --------------------------------------------------------------
 
@@ -152,6 +155,7 @@ Source used:
 Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
 
 ***
+
 Using ```grep -c``` to count the number of lines in the files that contains the keyword
 ---------------------------------------------------------------------------------------
 
@@ -175,6 +179,7 @@ Source used:
 Terminal manual command ``` man grep ```. I found out this command in the built-in terminal command `man grep`.
 
 ***
+
 Using ```grep -A num``` to read addtional following 'num' lines after each keyword mathch
 -----------------------------------------------------------------------------------------
 
