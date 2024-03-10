@@ -85,19 +85,19 @@ Steps 9
 
 ![Image](git_add.png)
 
-Key pressed: ``` git add "ListExamples.java" ```
+Key pressed: ``` git add "ListExamples.java" ``` add the updated file to stage changes for the next commit
 
 ***
 
 ![Image](git_commit.png)
 
-Key pressed: ``` git commit -m "ListExamples.java" ```
+Key pressed: ``` git commit -m "ListExamples.java" ``` create a new commit to changes of the file with a customized commit message
 
 ***
 
 ![Image](git_push.png)
 
-Key pressed: ``` git push -u origin main ```
+Key pressed: ``` git push -u origin main ``` push the commited file back to my github repo to update the corresponding file in my github repo
 
 ***
 
